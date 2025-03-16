@@ -12,4 +12,28 @@ function getComputerChoice() {
     {return "scissors"; }
 
 }
-console.log(getComputerChoice());
+
+//step 3 user input function to make user input rock paper or scissors
+function getHumanChoice() {
+    const userInput = prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
+    return userInput;
+}
+
+//step 4 user score variables
+let humanScore = 0;      
+let computerScore=0;
+
+//step 5 play single game
+
+function playRound(humanChoice, computerChoice) {
+ if humanChoice
+}
+
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
+
+    
+
+
