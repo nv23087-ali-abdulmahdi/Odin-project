@@ -1,20 +1,15 @@
-function add7 (a){
-    return a + 7
-}
-console.log(add7(11))
+//step 2: using computer to randomly select rock paper Scissors
+function getComputerChoice() {
+    const randomNumber = Math.random(); 
+    
+    if (randomNumber < 0.33) 
+    { return "rock"; }
+  
+    else if (randomNumber < 0.66) 
+    {  return "paper";  }
+    
+    else 
+    {return "scissors"; }
 
-function multiply (a,b){
-    return a * b
 }
-console.log(multiply(2,2))
-
-function captilaize (str) {
-    return str.at(0).toUpperCase() + str.slice(1)
-
-}
-console.log(captilaize("ali"))
-function lastLetter(str1) {
-    return str1.charAt(str1.length - 1);
-}
-
-console.log(lastLetter("ali")); 
+console.log(getComputerChoice());
