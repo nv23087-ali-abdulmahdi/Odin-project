@@ -44,8 +44,6 @@ function playRound(humanChoice, computerChoice) {
 
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
 
 
 //step 6 play entire game
